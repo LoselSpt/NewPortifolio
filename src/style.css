@@ -1,9 +1,10 @@
 :root {
-  --bg-color: #0a0a0a;
-  --text-color: #e0e0e0;
-  --accent-color: #8b5cf6; /* Violeta Neon */
-  --accent-glow: rgba(139, 92, 246, 0.5);
-  --secondary-bg: #1a1a1a;
+  --bg-color: #001905;
+  --text-color: #26ff00;
+  --accent-color: #19a627;
+  /* Violeta Neon */
+  --accent-glow: #21f80088;
+  --secondary-bg: #1c3c1175;
   --font-main: 'Inter', sans-serif;
   --transition-speed: 0.3s;
 }
@@ -33,7 +34,9 @@ a:hover {
   color: var(--accent-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -56,7 +59,7 @@ section {
   display: inline-block;
   padding: 0.8rem 1.5rem;
   background: var(--accent-color);
-  color: white;
+  color: rgb(0, 241, 241);
   border-radius: 8px;
   font-weight: 600;
   border: none;
@@ -67,4 +70,55 @@ section {
 .btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.hidden {
+  display: none !important;
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+nav a.active {
+  background-color: var(--accent-color);
+  color: rgb(0, 236, 252);
+}
+
+.tab-content {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.btn-secondary:hover {
+  background: var(--accent-color);
+  color: rgb(0, 249, 241);
 }
