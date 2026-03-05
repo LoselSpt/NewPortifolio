@@ -62,7 +62,7 @@ Perfil Comportamental: Planejador (estruturado, organizado) e Analítico (foco n
             company: "MBC Ferramentas e peças agriculas",
             role: "Auxiliar de Comercio",
             period: "12/2025 - Atual",
-            description: "Auxiliar de operações e expanção"
+            description: "Auxiliar de operações e expansão"
         },
         {
             company: "Mega Tejotao",
