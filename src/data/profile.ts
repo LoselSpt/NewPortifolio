@@ -48,7 +48,7 @@ export const profileData: Profile = {
     title: "Desenvolvedor Front-End & Back-End | Análise e Desenvolvimento de Sistemas",
     location: "Araguari / MG",
     email: "joaovitorspt123@gmail.com",
-    phone: "(31) 97223-8988",
+    phone: "",
     social: {
         linkedin: "https://www.linkedin.com/in/losel/",
         github: "https://github.com/LoselSpt"
